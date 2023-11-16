@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<employee-info>
+    <emp-name>100</emp-name>
+    <emp-id>Kishore</emp-id>
+    <mobile>7010975622</mobile>
+    <password>kk123</password>
+    <mailId>kishore@gmail.com</mailId>
+    <birthday>2021-11-19T12:16:58.915+05:30</birthday>
+    <location>Chennai</location>
+    <designation>Developer</designation>
+    <salary>45000.0</salary>
+    <isMarried>false</isMarried>
+</employee-info>

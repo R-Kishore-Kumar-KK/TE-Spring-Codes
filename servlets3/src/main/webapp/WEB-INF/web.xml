@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" version="4.0">
+  <display-name>servlets3</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+	<servlet-name>first</servlet-name>
+	<jsp-file>/login.html</jsp-file>
+	</servlet>
+	
+	<servlet-mapping>
+	<servlet-name>first</servlet-name>
+	<url-pattern>/Murugan1</url-pattern>
+	</servlet-mapping> 
+	
+	<servlet>
+	<servlet-name>second</servlet-name>
+	<jsp-file>/homepage.html</jsp-file>
+	</servlet>
+	
+	<servlet-mapping>
+	<servlet-name>second</servlet-name>
+	<url-pattern>/hp</url-pattern>
+	</servlet-mapping>
+	 
+	<servlet>
+	<servlet-name>third</servlet-name>
+	<jsp-file>/register.html</jsp-file>
+	</servlet>
+	
+	<servlet-mapping>
+	<servlet-name>third</servlet-name>
+	<url-pattern>/reg</url-pattern>
+	</servlet-mapping> 
+	
+	<servlet>
+	<servlet-name>fourth</servlet-name>
+	<jsp-file>/success.html</jsp-file>
+	</servlet>
+	
+	<servlet-mapping>
+	<servlet-name>fourth</servlet-name>
+	<url-pattern>/welcome</url-pattern>
+	</servlet-mapping> 
+	
+	<servlet>
+	<servlet-name>fifth</servlet-name>
+	<jsp-file>/register1.jsp</jsp-file>
+	</servlet>
+	
+	<servlet-mapping>
+	<servlet-name>fifth</servlet-name>
+	<url-pattern>/reg1</url-pattern>
+	</servlet-mapping> 
+	
+	<servlet>
+	<servlet-name>sixth</servlet-name>
+	<jsp-file>/failure.jsp</jsp-file>
+	</servlet>
+	
+	<servlet-mapping>
+	<servlet-name>sixth</servlet-name>
+	<url-pattern>/fail</url-pattern>
+	</servlet-mapping> 
+	
+	<servlet>
+	<servlet-name>seventh</servlet-name>
+	<jsp-file>/registerSuccess.jsp</jsp-file>
+	</servlet>
+	
+	<servlet-mapping>
+	<servlet-name>seventh</servlet-name>
+	<url-pattern>/rgs</url-pattern>
+	</servlet-mapping> 
+	
+	<servlet>
+	<servlet-name>eighth</servlet-name>
+	<jsp-file>/details.jsp</jsp-file>
+	</servlet>
+	
+	<servlet-mapping>
+	<servlet-name>eighth</servlet-name>
+	<url-pattern>/detailsjsp</url-pattern>
+	</servlet-mapping> 
+	
+	<servlet>
+	<servlet-name>Ninth</servlet-name>
+	<jsp-file>/showDetails.html</jsp-file>
+	</servlet>
+	
+	<servlet-mapping>
+	<servlet-name>Ninth</servlet-name>
+	<url-pattern>/sdt</url-pattern>
+	</servlet-mapping> 
+	
+	<servlet>
+	<servlet-name>tenth</servlet-name>
+	<jsp-file>/details1.jsp</jsp-file>
+	</servlet>
+	
+	<servlet-mapping>
+	<servlet-name>tenth</servlet-name>
+	<url-pattern>/detail</url-pattern>
+	</servlet-mapping> 
+	
+	<servlet>
+	<servlet-name>eleventh</servlet-name>
+	<jsp-file>/failedShowDetails.html</jsp-file>
+	</servlet>
+	
+	<servlet-mapping>
+	<servlet-name>eleventh</servlet-name>
+	<url-pattern>/fsd</url-pattern>
+	</servlet-mapping>
+	 
+	<servlet>
+	<servlet-name>deleting</servlet-name>
+	<jsp-file>/deleteDetails.jsp</jsp-file>
+	</servlet>
+	
+	<servlet-mapping>
+	<servlet-name>deleting</servlet-name>
+	<url-pattern>/ddt</url-pattern>
+	</servlet-mapping> 
+	
+	<servlet>
+	<servlet-name>deletingopr</servlet-name>
+	<jsp-file>/delete.jsp</jsp-file>
+	</servlet>
+	
+	<servlet-mapping>
+	<servlet-name>deletingopr</servlet-name>
+	<url-pattern>/dfa</url-pattern>
+	</servlet-mapping> 
+	
+	<servlet>
+	<servlet-name>failedDeleting</servlet-name>
+	<jsp-file>/failedDeleteDetails.jsp</jsp-file>
+	</servlet>
+	
+	<servlet-mapping>
+	<servlet-name>failedDeleting</servlet-name>
+	<url-pattern>/fdt</url-pattern>
+	</servlet-mapping> 
+	
+	<servlet>
+	<servlet-name>Murugan</servlet-name>
+	<jsp-file>/login1.jsp</jsp-file>
+	</servlet>
+	
+	<servlet-mapping>
+	<servlet-name>Murugan</servlet-name>
+	<url-pattern>/login1</url-pattern>
+	</servlet-mapping> 
+	
+	<servlet>
+	<servlet-name>Murugan1</servlet-name>
+	<jsp-file>/showDetails1.jsp</jsp-file>
+	</servlet>
+	
+	<servlet-mapping>
+	<servlet-name>Murugan1</servlet-name>
+	<url-pattern>/showDetails1</url-pattern>
+	</servlet-mapping> 
+	
+	<servlet>
+	<servlet-name>Murugan2</servlet-name>
+	<jsp-file>/homepage1.jsp</jsp-file>
+	</servlet>
+	
+	<servlet-mapping>
+	<servlet-name>Murugan2</servlet-name>
+	<url-pattern>/homepage1</url-pattern>
+	</servlet-mapping> 
+	
+	<servlet>
+	<servlet-name>Murugan3</servlet-name>
+	<jsp-file>/failedShowDetails1.jsp</jsp-file>
+	</servlet>
+	
+	<servlet-mapping>
+	<servlet-name>Murugan3</servlet-name>
+	<url-pattern>/fsd1</url-pattern>
+	</servlet-mapping> 
+	
+	<servlet>
+	<servlet-name>Murugan4</servlet-name>
+	<jsp-file>/success1.jsp</jsp-file>
+	</servlet>
+	
+	<servlet-mapping>
+	<servlet-name>Murugan4</servlet-name>
+	<url-pattern>/success1</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	<servlet-name>Murugan5</servlet-name>
+	<jsp-file>/editDetails.jsp</jsp-file>
+	</servlet>
+	
+	<servlet-mapping>
+	<servlet-name>Murugan5</servlet-name>
+	<url-pattern>/edt</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	<servlet-name>Murugan6</servlet-name>
+	<jsp-file>/editName.jsp</jsp-file>
+	</servlet>
+	
+	<servlet-mapping>
+	<servlet-name>Murugan6</servlet-name>
+	<url-pattern>/edn</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	<servlet-name>Murugan7</servlet-name>
+	<jsp-file>/failedEditName.jsp</jsp-file>
+	</servlet>
+	
+	<servlet-mapping>
+	<servlet-name>Murugan7</servlet-name>
+	<url-pattern>/fedn</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	<servlet-name>Murugan8</servlet-name>
+	<jsp-file>/successEditName.jsp</jsp-file>
+	</servlet>
+	
+	<servlet-mapping>
+	<servlet-name>Murugan8</servlet-name>
+	<url-pattern>/sedn</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	<servlet-name>Murugan9</servlet-name>
+	<jsp-file>/editPassword.jsp</jsp-file>
+	</servlet>
+	
+	<servlet-mapping>
+	<servlet-name>Murugan9</servlet-name>
+	<url-pattern>/edp</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	<servlet-name>Murugan10</servlet-name>
+	<jsp-file>/failedEditPassword.jsp</jsp-file>
+	</servlet>
+	
+	<servlet-mapping>
+	<servlet-name>Murugan10</servlet-name>
+	<url-pattern>/fedp</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	<servlet-name>Murugan11</servlet-name>
+	<jsp-file>/successEditPassword.jsp</jsp-file>
+	</servlet>
+	
+	<servlet-mapping>
+	<servlet-name>Murugan11</servlet-name>
+	<url-pattern>/sedp</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	<servlet-name>Murugan12</servlet-name>
+	<jsp-file>/editUserName.jsp</jsp-file>
+	</servlet>
+	
+	<servlet-mapping>
+	<servlet-name>Murugan12</servlet-name>
+	<url-pattern>/eun</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	<servlet-name>Murugan13</servlet-name>
+	<jsp-file>/failedEditUserName.jsp</jsp-file>
+	</servlet>
+	
+	<servlet-mapping>
+	<servlet-name>Murugan13</servlet-name>
+	<url-pattern>/feun</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	<servlet-name>Murugan14</servlet-name>
+	<jsp-file>/successEditUserName.jsp</jsp-file>
+	</servlet>
+	
+	<servlet-mapping>
+	<servlet-name>Murugan14</servlet-name>
+	<url-pattern>/seun</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	<servlet-name>Murugan15</servlet-name>
+	<jsp-file>/editUserMail.jsp</jsp-file>
+	</servlet>
+	
+	<servlet-mapping>
+	<servlet-name>Murugan15</servlet-name>
+	<url-pattern>/eum</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	<servlet-name>Murugan16</servlet-name>
+	<jsp-file>/failedEditUserMail.jsp</jsp-file>
+	</servlet>
+	
+	<servlet-mapping>
+	<servlet-name>Murugan16</servlet-name>
+	<url-pattern>/feum</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	<servlet-name>Murugan17</servlet-name>
+	<jsp-file>/successEditUserMail.jsp</jsp-file>
+	</servlet>
+	
+	<servlet-mapping>
+	<servlet-name>Murugan17</servlet-name>
+	<url-pattern>/seum</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	<servlet-name>Murugan18</servlet-name>
+	<jsp-file>/alreadyExistsUserName.jsp</jsp-file>
+	</servlet>
+	
+	<servlet-mapping>
+	<servlet-name>Murugan18</servlet-name>
+	<url-pattern>/aeu</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	<servlet-name>Murugan19</servlet-name>
+	<jsp-file>/alreadyExistsUserMail.jsp</jsp-file>
+	</servlet>
+	
+	<servlet-mapping>
+	<servlet-name>Murugan19</servlet-name>
+	<url-pattern>/aem</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	<servlet-name>Murugan20</servlet-name>
+	<jsp-file>/failedLogin.jsp</jsp-file>
+	</servlet>
+	
+	<servlet-mapping>
+	<servlet-name>Murugan20</servlet-name>
+	<url-pattern>/fl</url-pattern>
+	</servlet-mapping>
+	
+</web-app>

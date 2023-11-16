@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<employee-info>
+    <emp-name>100</emp-name>
+    <emp-id>Kishore</emp-id>
+    <mobile>7010975622</mobile>
+    <mailId>kishore@gmail.com</mailId>
+    <location>Chennai</location>
+    <designation>Developer</designation>
+    <salary>45000.0</salary>
+    <isMarried>false</isMarried>
+    <otherInfo>
+        <gender>Female</gender>
+        <aadhar>123456781231</aadhar>
+    </otherInfo>
+    <user-addresses>
+        <addressBeans addressType="84">
+            <house-number>420</house-number>
+            <street>Ambal Nagar</street>
+            <city>Chennai</city>
+        </addressBeans>
+        <addressBeans addressType="80">
+            <house-number>111</house-number>
+            <street>MGR Nagar</street>
+            <city>Chennai</city>
+        </addressBeans>
+    </user-addresses>
+</employee-info>
